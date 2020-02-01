@@ -2,12 +2,12 @@ package com.example.emplyproject;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class PrintPrivateKeyActivity extends AppCompatActivity {
+public class PrintPrivateKeyActivity {
 
     //  @Override
     // protected void onCreate(Bundle savedInstanceState) {
@@ -22,11 +22,11 @@ public class PrintPrivateKeyActivity extends AppCompatActivity {
     //TextView textView = findViewById(R.id.textView);
     //textView.setText(message);
 
-    public String Printkey() {
+    public String Printkey(HashMap<Integer, Integer> privatekey) {
 
-        HashMap<Integer, Integer> privatekey = new HashMap<Integer, Integer>();    // test example of hashmap formatted data
-        privatekey.put(1, 21);
-        privatekey.put(2, 45);
+        //HashMap<Integer, Integer> privatekey = new HashMap<Integer, Integer>();    // test example of hashmap formatted data
+        //privatekey.put(1, 21);
+        //privatekey.put(2, 45);
 
         Iterator<Integer> keySetIterator = privatekey.keySet().iterator();
         String igotthekey;
