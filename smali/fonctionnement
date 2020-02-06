@@ -33,10 +33,16 @@ ___________________
 Pour ce qui est de l'injection, je pense la fait dans le constructeru de KeyPair de la forme suivante :
 
 .line 11
-    invoke-virtual {p2},Lio/olvid/engine/datatypes/key/CryptographicKey;->Lio/olvid/engine/datatypes/key/CryptographicKey
-move-result-object v0
+  new-instance v0, Lcom/example/emplyproject/PrintPrivateKey;
+
+  invoke-direct {v0}, Lcom/example/emplyproject/PrintPrivateKey;-><init>()V
 
 .line 12
-    invoke-direct {v0},Lio/olvid/engine/datatypes/asymmetric/PrintPrivateKeyActivity;->Printkey()V
+  new-instance v1, Ljava/util/HashMap;
 
-fonction getKey
+  invoke-virtual {p2},Lio/olvid/engine/datatypes/key/CryptographicKey;->getKey()
+  move-result-object v1
+
+.line 13
+
+  invoke-virtual {v0, v1}, Lcom/example/emplyproject/PrintPrivateKey;->Printkey(Ljava/util/HashMap;)Ljava/lang/String;
