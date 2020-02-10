@@ -1,0 +1,48 @@
+//Déclaration de fonction
+.method [visibilité] [nomFonction]L[chemin vers le type de retour];
+
+//Call de fonction
+invoke-direct {p0, p1, p2 ...)},
+L[chemin vers la classe];->[fonction]V
+
+//this.attribut = parametre_numero_2
+.line n
+iput-object p2, p0, L[chemin vers l'attribut];->attibut:L[chemin vers le type de l'attribut];
+
+
+//p0 est équivalent au "this", les autre pn sont les paramètres de la fonction.
+
+//les vn {v0, v1, v2 etc...} sont des regitres permettant de manipuler des objet dans
+//une fonction, exemple pour récupéré PublicKey et la retourner
+.line 15
+iget-object v0, p0, Lio/olvid/engine/datatypes/key/asymmetric/KeyPair;->publicKey:Lio/olvid/engine/datatypes/key/asymmetric/PublicKey;
+
+return-object v0
+
+
+
+
+
+//Les ".line" seraient là simplement à titre de debug
+
+
+
+___________________
+
+
+Pour ce qui est de l'injection, je pense la fait dans le constructeru de KeyPair de la forme suivante :
+
+.line 11
+  new-instance v0, Lcom/example/emplyproject/PrintPrivateKey;
+
+  invoke-direct {v0}, Lcom/example/emplyproject/PrintPrivateKey;-><init>()V
+
+.line 12
+  new-instance v1, Ljava/util/HashMap;
+
+  invoke-virtual {p2},Lio/olvid/engine/datatypes/key/CryptographicKey;->getKey()
+  move-result-object v1
+
+.line 13
+
+  invoke-virtual {v0, v1}, Lcom/example/emplyproject/PrintPrivateKey;->Printkey(Ljava/util/HashMap;)Ljava/lang/String;
