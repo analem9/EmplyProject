@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+
+
 import java.util.HashMap;
 
 import io.olvid.engine.datatypes.key;
@@ -11,10 +13,12 @@ import io.olvid.engine.encoder.Encoded;
 import io.olvid.engine.datatypes.DictionnaryKey;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     public HashMap <Integer, Integer> firsttry = new HashMap<>();
-    protected final Hashmap<DictionaryKey, Encoded> secondtry = getKey();
+    protected final PrivateKey privateKey = new PrivateKey();
+    protected final Hashmap<DictionaryKey, Encoded> secondtry = privateKey.getKey();
 
 
 
