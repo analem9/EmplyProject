@@ -23,7 +23,8 @@ public class PrintPrivateKey {
     //textView.setText(message);
 
 
-
+/*
+    // fonction to test with a simple hashmap: key and value are both integer
     public String Printkey(HashMap<Integer, Integer> privatekey) {
 
         //HashMap<Integer, Integer> privatekey = new HashMap<Integer, Integer>();    // test example of hashmap formatted data
@@ -36,6 +37,21 @@ public class PrintPrivateKey {
             System.out.println(key.toString() + " : " + privatekey.get(key).toString());    // display key and value, string formatted
         }
     return "########################################";
+    }
+
+
+ */
+    // test with a more complex hashmap: key = DictionnaryKey, value=Encoded (cf Olvid)
+
+    public String Printkey(HashMap<DictionaryKey, Encoded> privatekey) {
+        System.out.println("######################################################");
+        //convert the DictionaryKey format into int to use iterator() method
+        Iterator<Integer> keySetIterator = int(privatekey.keySet()).iterator();
+        while (keySetIterator.hasNext()) {
+            Integer key = keySetIterator.next();
+            System.out.println(key.toString() + " : " + privatekey.get(key).toString());    // display key and value, string formatted
+        }
+        return "########################################";
     }
 }
 
