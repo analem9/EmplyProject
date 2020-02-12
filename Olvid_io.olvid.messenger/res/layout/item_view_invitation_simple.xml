@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:cardBackgroundColor="@color/almostWhite" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_invitation_header" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/button_abort" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_label_abort" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:id="@id/button_go_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_label_go_to_contact" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+                <Button android:id="@id/button_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_label_ok" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+                <Button android:id="@id/button_ignore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_label_ignore" app:layout_constraintEnd_toStartOf="@id/button_accept" app:layout_constraintTop_toTopOf="@id/button_accept" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+                <Button android:id="@id/button_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_label_accept" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

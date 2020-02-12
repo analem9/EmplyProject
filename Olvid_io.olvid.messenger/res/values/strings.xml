@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_mode_title">%1$d Selected</string>
+    <string name="activity_subtitle_discussion_members">Members: %1$s</string>
+    <string name="activity_title_contact_details">Contact Details</string>
+    <string name="activity_title_create_group">Create Group</string>
+    <string name="activity_title_create_identity">New ID Creation</string>
+    <string name="activity_title_discussion_settings">Discussion Settings</string>
+    <string name="activity_title_group_details">Group Details</string>
+    <string name="activity_title_message_details">Message Details</string>
+    <string name="activity_title_myid">My Id</string>
+    <string name="activity_title_settings">Olvid Settings</string>
+    <string name="app_name">Olvid</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="button_label_abort">Abort</string>
+    <string name="button_label_accept">Accept</string>
+    <string name="button_label_app_settings">App Settings</string>
+    <string name="button_label_backup">Backup</string>
+    <string name="button_label_battery_optimization_settings">Settings</string>
+    <string name="button_label_cancel">Cancel</string>
+    <string name="button_label_clear">Clear</string>
+    <string name="button_label_create_group">Create Group</string>
+    <string name="button_label_discard">Discard</string>
+    <string name="button_label_enter_manually">Enter Manually</string>
+    <string name="button_label_exchange_digits_with_user">Exchange codes with %1$s</string>
+    <string name="button_label_generate_new_id">Generate new ID</string>
+    <string name="button_label_go_to_contact">Go to contact</string>
+    <string name="button_label_go_to_discussion">Go to discussion</string>
+    <string name="button_label_ignore">Ignore</string>
+    <string name="button_label_import_from_clipboard">Import from Clipboard</string>
+    <string name="button_label_introduce">Introduce</string>
+    <string name="button_label_invite">Send invite</string>
+    <string name="button_label_invite_members">"Invite
+members"</string>
+    <string name="button_label_invite_user">Invite %1$s</string>
+    <string name="button_label_next">Next</string>
+    <string name="button_label_ok">OK</string>
+    <string name="button_label_previous">Previous</string>
+    <string name="button_label_proceed">Proceed</string>
+    <string name="button_label_publish">Publish</string>
+    <string name="button_label_remove_members">"Remove
+members"</string>
+    <string name="button_label_remove_nickname">Reset</string>
+    <string name="button_label_scan_qr_code">Scan QR Code</string>
+    <string name="button_label_share">Share</string>
+    <string name="button_label_transfer">Transfer</string>
+    <string name="button_label_update">Update</string>
+    <string name="button_label_validate">Validate</string>
+    <string name="button_more">More…</string>
+    <string name="button_restart_channel_establishment">Restart Channel Establishment</string>
+    <string name="button_scan_qr_code">"Scan another user's QR Code"</string>
+    <string name="button_send_invite">Send invitation</string>
+    <string name="button_show_qr">Show my QR code</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="content_description_code_valid">Code valid</string>
+    <string name="content_description_edit_my_name">Edit my name</string>
+    <string name="content_description_message_status">Message status</string>
+    <string name="content_description_qr_code">QR code</string>
+    <string name="content_description_send_message">Send message</string>
+    <string name="copy">Copy</string>
+    <string name="default_web_client_id">1084854001073-qcgl7q3a3hq0bfe0jtsf6c8bupcpb69n.apps.googleusercontent.com</string>
+    <string name="dialog_message_abort_group_invitation">You are about to abort the ongoing group creation protocol for group %1$s. You will leave this group and no longer receive the messages posted in it. Really abort the protocol?</string>
+    <string name="dialog_message_abort_invitation">You are about to discard an invitation. Proceed?</string>
+    <string name="dialog_message_about_olvid">"You are using Olvid for Android
+Version %1$s (build %2$d)
+
+Server API: %3$s
+Engine DB schema: %4$d
+Application DB schema: %5$d"</string>
+    <string name="dialog_message_background_restricted">"It appears that the Olvid app has Background Restriction enabled. Olvid will not be able to function properly until you remove it from the Restricted Apps list.
+
+You can access this settings from:
+App Settings > Advanced > Battery > Background restriction"</string>
+    <string name="dialog_message_battery_optimization">"Battery optimization on Android works by delaying certain background events to run them in a batch. This may delay the reception of inbound Olvid messages.
+
+To ensure that your messages are received promptly, you may disable Battery Optimization for specific apps. We recommend disabling Battery Optimization by visiting the settings below and adding Olvid to the list of Power-saving exceptions."</string>
+    <string name="dialog_message_configuration_and_identity_mismatch">"The server URL in the configuration you imported does not match the server in your ID.
+
+Unable to update your API Key."</string>
+    <string name="dialog_message_contact_introduction">Do you want to introduce %1$s and %2$s to one another?</string>
+    <string name="dialog_message_delete_attachment">"Do you really want to delete attachment %1$s from this message?
+This action cannot be undone."</string>
+    <string name="dialog_message_delete_contact">"You are about to remove %1$s from your contacts. You will no longer be able to exchange messages with them.
+
+Really delete this contact?"</string>
+    <string name="dialog_message_delete_contact_impossible">You cannot remove %1$s from your contacts as both of you belong to some common groups. You will need to leave these groups to proceed.</string>
+    <string name="dialog_message_delete_contact_with_pending_groups">"You are about to remove %1$s from your contacts. You will no longer be able to exchange messages with them.
+
+Note that %1$s is a pending member in %2$d groups you belong to. He might get added back to your contacts in a near future. You may want to leave these groups to avoid this.
+
+Really delete this contact?"</string>
+    <string name="dialog_message_delete_discussion">"Do you really want to delete discussion %1$s and all the messages it contains?
+This action cannot be undone."</string>
+    <string name="dialog_message_disband_group">"Do you wish to disband the group %1$s?
+It will no longer be possible to send messages to this group. Existing group messages will not be affected."</string>
+    <string name="dialog_message_disband_non_empty_group_confirmation">"You are about to disband the group %1$s.
+This will remove all members and pending members from the group. There are currently:
+- %2$d members
+- %3$d pending members
+
+Proceed with disbanding this group?"</string>
+    <string name="dialog_message_exchange_digits">Do you want to exchange codes with %1$s to re-validate his identity?</string>
+    <string name="dialog_message_google_apis_missing">It seems the Google Play Services are not installed on your device. Olvid relies on these services to be notified of incoming messages and will not be able to function properly without them.</string>
+    <string name="dialog_message_group_reinvite">Do you wish to send %1$s a new invitation to join the group %2$s?</string>
+    <string name="dialog_message_invite_already_trusted_user">"Do you want add %1$s to your contact?
+
+Note that this user is already part of your trusted contacts."</string>
+    <string name="dialog_message_invite_user">Do you want to add %1$s to your contacts?</string>
+    <string name="dialog_message_leave_group">"You are about to leave the group %1$s. Other members of the group will be notified and you will stop receiving messages sent to this group.
+
+Do you really want to leave the group?"</string>
+    <string name="dialog_message_olvid_not_free">"Olvid is currently free and anyone can use it.
+
+It will however require paying a monthly subscription fee at some point. Indeed, Olvid does not rely on ads or on the collection and exploitation of personal data to pay for its infrastructure and development."</string>
+    <string name="dialog_message_recipient_details" formatted="false">"Sent: %s
+Delivered: %s
+Read: %s"</string>
+    <string name="dialog_message_recreate_channels">"The secure channels between you and your contact might become de-synchronized. If you notice that messages you send are no longer received by your contact, recreating the secure channels could correct this.
+
+Do you wish to initiate the recreation of secure channels?"</string>
+    <string name="dialog_message_restart_channel_establishment">Do you really wish to restart the ongoing secure discussion channel establishment protocol?</string>
+    <string name="dialog_message_update_api_key">Your ID %1$s is currently associated to the API Key&lt;br>&lt;small>&lt;tt>%2$s&lt;/tt>&lt;/small>&lt;br>&lt;br>You imported a new API Key&lt;br>&lt;small>&lt;tt>%3$s&lt;/tt>&lt;/small>&lt;br>&lt;br>Do you want to update it?</string>
+    <string name="dialog_text_do_not_show_again">Do not show this message again</string>
+    <string name="dialog_title_abort_invitation">Abort Invitation?</string>
+    <string name="dialog_title_about_olvid">About Olvid</string>
+    <string name="dialog_title_add_contact_method">Choose how to add a contact</string>
+    <string name="dialog_title_api_key_status">API Key Status</string>
+    <string name="dialog_title_background_restricted">Olvid is Background Restricted</string>
+    <string name="dialog_title_battery_optimization">Battery Optimization</string>
+    <string name="dialog_title_contact_introduction">Contact Introduction</string>
+    <string name="dialog_title_delete_attachment">Delete Attachment</string>
+    <string name="dialog_title_delete_contact">Delete contact?</string>
+    <string name="dialog_title_delete_contact_impossible">Impossible to delete contact</string>
+    <string name="dialog_title_delete_discussion">Delete Discussion</string>
+    <string name="dialog_title_delete_messages">Confirm Deletion</string>
+    <string name="dialog_title_disband_group">Disband group?</string>
+    <string name="dialog_title_discussion_search">Search for a Discussion…</string>
+    <string name="dialog_title_edit_group_details">Edit Group Details</string>
+    <string name="dialog_title_edit_identity_details">Edit your Details</string>
+    <string name="dialog_title_enter_api_key">Enter your API Key</string>
+    <string name="dialog_title_exchange_digits">Exchange codes</string>
+    <string name="dialog_title_google_apis_missing">Google Play Services Missing</string>
+    <string name="dialog_title_group_reinvite">Resend group invitation</string>
+    <string name="dialog_title_introduce_contact">Introduce %1$s to…</string>
+    <string name="dialog_title_invite_group_members">Invite contacts to the group</string>
+    <string name="dialog_title_invite_user">Invitation</string>
+    <string name="dialog_title_leave_group">Leave group</string>
+    <string name="dialog_title_olvid_not_free">Olvid subscription</string>
+    <string name="dialog_title_pick_discussion_color">Pick discussion color</string>
+    <string name="dialog_title_recreate_channels">Recreate secure channels?</string>
+    <string name="dialog_title_remove_group_members">Remove group members</string>
+    <string name="dialog_title_rename_contact">Set Contact Nickname</string>
+    <string name="dialog_title_rename_discussion">Rename Discussion</string>
+    <string name="dialog_title_rename_group">Customize Group Name</string>
+    <string name="dialog_title_restart_channel_establishment">Restart Channel Establishment?</string>
+    <string name="dialog_title_share_with">Share with…</string>
+    <string name="dialog_title_shortcut_to">Create Shortcut to…</string>
+    <string name="dialog_title_update_api_key">Update your API Key</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="explanation_api_key_invalid">"Your API key was rejected by the server. Either you entered it incorrectly or your API key was revoked. You will need to update your API key in order to receive messages.
+
+To update your key, either click a configuration link to import a new key into Olvid or use one of the methods below."</string>
+    <string name="explanation_api_key_status_unknown">"Your API key was not yet verified on the server.
+
+If you want to update your key, either click a configuration link to import it into Olvid or use one of the methods below."</string>
+    <string name="explanation_api_key_valid">"Your API key was accepted by the server.
+
+Still, if you want to update your key, either click a configuration link to import a new key into Olvid or use one of the methods below."</string>
+    <string name="explanation_choose_display_name">"Please enter a name which will be displayed to your contacts. These details will never be sent to Olvid's servers."</string>
+    <string name="explanation_configuration_api_key">"Before using Olvid, you must generate an ID and register it with the Olvid server.
+
+Your administrator should have sent you a configuration link. Either click this link to import the configuration into Olvid or use one of the methods below."</string>
+    <string name="explanation_empty_contact_list">"This screen displays the list of contacts you trust.
+
+To add new contacts, click the button at the bottom right of this screen."</string>
+    <string name="explanation_empty_discussion_list">This screen displays your ongoing discussions.</string>
+    <string name="explanation_empty_group_list">This screen displays the list of groups you belong to.</string>
+    <string name="explanation_empty_invitation_list">This screen displays the list of invitations you have received or sent.</string>
+    <string name="explanation_empty_message_list">This discussion does not contain any message yet.</string>
+    <string name="explanation_group_name">Choose a group name to help group members identify the purpose of this group.</string>
+    <string name="explanation_new_group_card">"The group manager updated the Group Card. Both the old and new versions are shown below.
+
+Click to update the group's information with this new version."</string>
+    <string name="explanation_new_olvid_card">"Your contact updated their Olvid Card. Both the old and new versions are shown below.
+
+Click to update your contact's information with this new version."</string>
+    <string name="explanation_no_channel">"A secure discussion channel is currently being established. You cannot start any discussion with this contact until this is done. This process should take a few seconds if both you and your contact are online.
+
+If you believe that something went wrong, you can restart the channel establishment."</string>
+    <string name="explanation_no_contact_match_filter">No matching contact name</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="firebase_database_url">https://olvid-messenger.firebaseio.com</string>
+    <string name="format_identity_details_custom_field">%1$s: %2$s</string>
+    <string name="gcm_defaultSenderId">1084854001073</string>
+    <string name="google_api_key">AIzaSyDSBF7u3uf62slCbG70LpM5C1dAesQOJTw</string>
+    <string name="google_app_id">1:1084854001073:android:5870a17a95c269c7</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDSBF7u3uf62slCbG70LpM5C1dAesQOJTw</string>
+    <string name="google_storage_bucket">olvid-messenger.appspot.com</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_alpha">Alpha</string>
+    <string name="hint_api_key">xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</string>
+    <string name="hint_choose_display_name">Your Name</string>
+    <string name="hint_color_hex">Color hex</string>
+    <string name="hint_company">Company (optional)</string>
+    <string name="hint_compose_your_message">Write message</string>
+    <string name="hint_contact_name">Contact Name</string>
+    <string name="hint_contact_or_group_name">Contact or Group Name</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_group_description">Group Description</string>
+    <string name="hint_group_name">Group Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_new_name">New name</string>
+    <string name="hint_notification_reply">Reply</string>
+    <string name="hint_position">Position (optional)</string>
+    <string name="hint_search_contact_name">Search Contact Name…</string>
+    <string name="hint_server_url">https://server.olvid.io</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="invitation_label_their_code">Their code</string>
+    <string name="invitation_label_your_code">Your code</string>
+    <string name="invitation_status_accept_invite">Invitation in progress</string>
+    <string name="invitation_status_contact_added">Contact added</string>
+    <string name="invitation_status_description_accept_group_invite">Accept this invitation from %1$s?</string>
+    <string name="invitation_status_description_accept_group_invite_deleted">This invitation comes from an unknown user. It is recommended to ignore it.</string>
+    <string name="invitation_status_description_accept_invite">%1$s would like to be part of your contacts. Please \"ACCEPT\" if you wish to proceed. Otherwise, you can \"IGNORE\".</string>
+    <string name="invitation_status_description_accept_mediator_invite">%1$s wants to introduce you to %2$s. Accept?</string>
+    <string name="invitation_status_description_accept_mediator_invite_deleted">An unknown contact wants to introduce you to %1$s. It is recommended to reject this invitation?</string>
+    <string name="invitation_status_description_contact_added_by_mediator">%1$s was added to your contacts following an introduction by %2$s.</string>
+    <string name="invitation_status_description_contact_added_by_mediator_deleted">%1$s was added to your contacts.</string>
+    <string name="invitation_status_description_enter_their_sas">"To add %1$s to your contacts, please give them your code (%2$s) and enter theirs.
+
+Please make sure that %1$s is indeed the one giving you this code: prefer a face-to-face meeting or a phone call (avoid email, SMS, or any other messenger)."</string>
+    <string name="invitation_status_description_give_him_sas">"You successfully entered the code of %1$s. Please communicate them your code (%2$s).
+
+Prefer a face-to-face meeting or a phone call (avoid email, SMS, or any other messenger)."</string>
+    <string name="invitation_status_description_group_joined">You have joined the group %2$s managed by %1$s.</string>
+    <string name="invitation_status_description_group_joined_deleted">You have joined the group %1$s.</string>
+    <string name="invitation_status_description_group_owner_trust_level_too_low">"%1$s invited you to join the group %2$s.
+
+Olvid's security policy requires you to re-validate the identity of %1$s by exchanging 4-digit codes with them."</string>
+    <string name="invitation_status_description_invite_accepted">We are bootstrapping the secure channel between you and %1$s. Please wait…</string>
+    <string name="invitation_status_description_invite_sent">Please wait for %1$s to confirm.</string>
+    <string name="invitation_status_description_mediator_invite_accepted">Waiting for %1$s to accept the introduction from %2$s.</string>
+    <string name="invitation_status_description_mediator_invite_accepted_deleted">Waiting for %1$s to accept the introduction.</string>
+    <string name="invitation_status_description_mediator_trust_level_too_low">"%1$s wants to introduce you to %2$s.
+
+Olvid's security policy requires you to re-validate the identity of %1$s by exchanging 4-digit codes with them, or to invite %2$s directly."</string>
+    <string name="invitation_status_description_mediator_trust_level_too_low_deleted">"An unknown contact wants to introduce you to %1$s.
+
+Please invite %1$s directly or abort this invitation."</string>
+    <string name="invitation_status_description_mutual_trust_established">Well done! A secure channel between you and %1$s is in progress. As soon as it is ready, you will be able to discuss with %1$s.</string>
+    <string name="invitation_status_description_ongoing_group_creation">%1$d out of %2$d accepted the invitation from %3$s.</string>
+    <string name="invitation_status_description_ongoing_own_group_creation">%1$d out of %2$d accepted your invitation.</string>
+    <string name="invitation_status_exchange_sas">Exchange your codes</string>
+    <string name="invitation_status_give_him_sas">Code confirmed</string>
+    <string name="invitation_status_group_created">Group created</string>
+    <string name="invitation_status_group_invite">Group invitation</string>
+    <string name="invitation_status_group_joined">Group joined</string>
+    <string name="invitation_status_invite_accepted">Invitation in progress</string>
+    <string name="invitation_status_invite_sent">Invitation in progress</string>
+    <string name="invitation_status_mediator_invite">Contact introduction</string>
+    <string name="invitation_status_mediator_invite_accepted">Introduction accepted</string>
+    <string name="invitation_status_mutual_trust_established">Secure channel in progress</string>
+    <string name="invitation_status_ongoing_group_creation">Waiting for other group members</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_api_key_invalid">API key is invalid</string>
+    <string name="label_api_key_status_unknown">Unknown API key status</string>
+    <string name="label_api_key_valid">API key is valid</string>
+    <string name="label_cancelled_by_sender">Cancelled by sender</string>
+    <string name="label_confirmed_members">Confirmed Members</string>
+    <string name="label_copy">Copy</string>
+    <string name="label_create_new_group">Create new group</string>
+    <string name="label_creating_channel">"Creating
+Channel"</string>
+    <string name="label_download">Download</string>
+    <string name="label_establishing_secure_connection">Establishing a secure discussion channel</string>
+    <string name="label_group_card">Group Card</string>
+    <string name="label_group_card_published">Group Card - Published</string>
+    <string name="label_group_card_published_update">Group Card - New</string>
+    <string name="label_group_card_unpublished_draft">Group Card - Unpublished Draft</string>
+    <string name="label_group_members">Group Members</string>
+    <string name="label_group_name">Group Name</string>
+    <string name="label_groups">Groups</string>
+    <string name="label_groups_created">Groups Created</string>
+    <string name="label_groups_joined">Groups Joined</string>
+    <string name="label_invitation_declined">"Invitation
+declined"</string>
+    <string name="label_my_id">My Id</string>
+    <string name="label_myid_name">My name</string>
+    <string name="label_myid_qr_code">My QR code</string>
+    <string name="label_new">New</string>
+    <string name="label_new_group_card">New Group Card</string>
+    <string name="label_new_olvid_card">New Olvid Card</string>
+    <string name="label_not_part_of_a_group">Not part of a group yet</string>
+    <string name="label_olvid_card">Olvid Card</string>
+    <string name="label_olvid_card_published">Olvid Card - Published</string>
+    <string name="label_olvid_card_published_update">Olvid Card - New</string>
+    <string name="label_olvid_card_unpublished_draft">Olvid Card - Unpublished Draft</string>
+    <string name="label_pending_group_members">Pending Group Members</string>
+    <string name="label_pending_members">Pending Members</string>
+    <string name="label_server_url">Server</string>
+    <string name="label_text_copied_from_olvid">Text copied from Olvid</string>
+    <string name="label_trust_origins">Trust Origins</string>
+    <string name="label_trusted_contacts">Trusted Contacts</string>
+    <string name="label_trusted_members">Trusted Members</string>
+    <string name="label_unknown_members">Unknown Members</string>
+    <string name="label_upload">Upload</string>
+    <string name="menu_action_about">About</string>
+    <string name="menu_action_api_key">API Key Status</string>
+    <string name="menu_action_contact_details">Contact Details</string>
+    <string name="menu_action_copy_text">Copy message text</string>
+    <string name="menu_action_create_shortcut">Create Shortcut</string>
+    <string name="menu_action_delete">Delete</string>
+    <string name="menu_action_delete_contact">Delete contact</string>
+    <string name="menu_action_delete_discussion">Delete discussion</string>
+    <string name="menu_action_disband_group">Disband group</string>
+    <string name="menu_action_discussion_settings">Discussion settings</string>
+    <string name="menu_action_edit_group_details">Edit group details</string>
+    <string name="menu_action_edit_my_details">Edit my Details</string>
+    <string name="menu_action_forward">Forward</string>
+    <string name="menu_action_get_messages">Get Messages</string>
+    <string name="menu_action_group_details">Group Details</string>
+    <string name="menu_action_import_from_clipboard">Import invitation from Clipboard</string>
+    <string name="menu_action_import_qr_code_from_image">Import their QR code from a picture</string>
+    <string name="menu_action_leave_group">Leave group</string>
+    <string name="menu_action_message_details">Details</string>
+    <string name="menu_action_open">Open</string>
+    <string name="menu_action_recreate_channels">Recreate secure channels</string>
+    <string name="menu_action_rename">Rename</string>
+    <string name="menu_action_rename_contact">Set Contact Nickname</string>
+    <string name="menu_action_rename_group">Rename Group</string>
+    <string name="menu_action_reply">Reply</string>
+    <string name="menu_action_save">Save</string>
+    <string name="menu_action_search">Search</string>
+    <string name="menu_action_select">Select</string>
+    <string name="menu_action_settings">Settings</string>
+    <string name="menu_action_share">Share</string>
+    <string name="menu_check_update">Check Google Play for update</string>
+    <string name="message_discussion_locked">This discussion is locked</string>
+    <string name="message_discussion_no_channel">Your messages will be automatically sent once a secure channel is established for this discussion. Until then, they will remain on hold.</string>
+    <string name="message_discussion_no_channel_group">Your messages will be automatically sent once someone else joins this group discussion. Until then, they will remain on hold.</string>
+    <string name="message_error_first_or_last_name_needed">Please fill in a first or a last name</string>
+    <string name="message_error_group_name_empty">Please enter a group name</string>
+    <string name="message_error_group_name_needed">Group name cannot be empty</string>
+    <string name="message_error_trust_origin">Error retrieving contact trust origin</string>
+    <string name="message_invalid_api_key_format">Invalid API key format</string>
+    <string name="message_user_invitation">"%1$s invites you to discuss on Olvid. To accept, please click the link below:
+
+%2$s
+"</string>
+    <string name="message_valid_api_key_format">Valid API key format</string>
+    <string name="message_wrong_code">Wrong code</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="not_set">Not set</string>
+    <string name="notification_action_accept">Accept</string>
+    <string name="notification_action_mark_as_read">Mark as read</string>
+    <string name="notification_action_reject">Reject</string>
+    <string name="notification_action_reply">Reply</string>
+    <string name="notification_channel_invitation_description">Notifications for received invitations</string>
+    <string name="notification_channel_invitation_name">Invitations</string>
+    <string name="notification_channel_message_description">Notifications for new messages</string>
+    <string name="notification_channel_message_name">Messages</string>
+    <string name="notification_content_contact_added">You can start your discussion</string>
+    <string name="notification_content_exchange_sas">Your code: %1$s</string>
+    <string name="notification_content_group_invite">Group created by %1$s</string>
+    <string name="notification_content_mediator_invite">Introduced by %1$s</string>
+    <string name="notification_public_title_contact_added">User added to your contacts</string>
+    <string name="notification_public_title_exchange_sas">Exchange your codes</string>
+    <string name="notification_public_title_group_invitation">New group invitation received</string>
+    <string name="notification_public_title_group_member">Group members updated</string>
+    <string name="notification_public_title_new_invitation">New invitation received</string>
+    <string name="notification_title_contact_added">%1$s added to your contacts</string>
+    <string name="notification_title_exchange_sas">Exchange verification codes with %1$s</string>
+    <string name="notification_title_group_invitation">Invitation to group %1$s</string>
+    <string name="notification_title_new_invitation">Invitation from %1$s</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pref_autodownload_size_summary">%1$s</string>
+    <string name="pref_autodownload_size_title">Automatically download attachments…</string>
+    <string name="pref_discussion_background_image">Background image</string>
+    <string name="pref_discussion_background_image_click_to_choose_summary">Click to choose an image</string>
+    <string name="pref_discussion_background_image_click_to_remove_summary">Click to remove image</string>
+    <string name="pref_discussion_color_title">Pick discussion color</string>
+    <string name="pref_discussion_read_receipt_summary">%1$s</string>
+    <string name="pref_discussion_read_receipt_title">Send read receipts</string>
+    <string name="pref_invitation_notifications_summary">Notification settings for invitations</string>
+    <string name="pref_invitation_notifications_title">Invitation Notifications</string>
+    <string name="pref_key_autodownload_size">pref_key_autodownload_size</string>
+    <string name="pref_key_discussion_read_receipt">pref_key_discussion_read_receipt</string>
+    <string name="pref_key_invitation_notifications">pref_key_invitation_notifications</string>
+    <string name="pref_key_message_notifications">pref_key_message_notifications</string>
+    <string name="pref_key_qr_correction_level">pref_key_qr_correction_level</string>
+    <string name="pref_key_send_read_receipt">pref_key_send_read_receipt</string>
+    <string name="pref_key_use_vibrator">pref_key_use_vibrator</string>
+    <string name="pref_message_notifications_summary">Notification settings for new messages</string>
+    <string name="pref_message_notifications_title">Message Notifications</string>
+    <string name="pref_qr_correction_level_summary">%1$s</string>
+    <string name="pref_qr_correction_level_title">QR-code error correction level</string>
+    <string name="pref_read_receipt_summary">When this is on, people are notified when you have read their messages. This can be overridden in each discussion.</string>
+    <string name="pref_read_receipt_title">Send read receipts</string>
+    <string name="pref_reset_dialogs_summary">Restore dialogs hidden by \"Do not show this message again\"</string>
+    <string name="pref_reset_dialogs_title">Reset all dialog warnings</string>
+    <string name="pref_text_QR_correction_high">High</string>
+    <string name="pref_text_QR_correction_low">Low</string>
+    <string name="pref_text_QR_correction_medium">Medium</string>
+    <string name="pref_text_QR_correction_veryhigh">Very High</string>
+    <string name="pref_text_autodownload_size_10M">Smaller than 10MB</string>
+    <string name="pref_text_autodownload_size_1M">Smaller than 1MB</string>
+    <string name="pref_text_autodownload_size_20M">Smaller than 20MB</string>
+    <string name="pref_text_autodownload_size_3M">Smaller than 3MB</string>
+    <string name="pref_text_autodownload_size_50M">Smaller than 50MB</string>
+    <string name="pref_text_autodownload_size_5M">Smaller than 5MB</string>
+    <string name="pref_text_autodownload_size_disabled">Never download automatically</string>
+    <string name="pref_text_autodownload_size_unlimited">Always download automatically</string>
+    <string name="pref_text_discussion_read_receipt_default">Use application default.</string>
+    <string name="pref_text_discussion_read_receipt_default_false">Use application default (off).</string>
+    <string name="pref_text_discussion_read_receipt_default_true">Use application default (on).</string>
+    <string name="pref_text_discussion_read_receipt_off">Off, people are not notified.</string>
+    <string name="pref_text_discussion_read_receipt_on">On, people are notified.</string>
+    <string name="pref_vibrator_off_summary">Never vibrate</string>
+    <string name="pref_vibrator_on_summary">Vibrate when receiving an invitation or a message</string>
+    <string name="pref_vibrator_title">Use vibrator</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="preference_filename_app">io.olvid.messenger.APP_PREFERENCE_FILE</string>
+    <string name="preference_filename_notifications">io.olvid.messenger.NOTIFICATIONS_PREFERENCE_FILE</string>
+    <string name="project_id">olvid-messenger</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subtitle_choose_group_name">Choose Group Name</string>
+    <string name="subtitle_confirm_group_creation">Confirm Group Creation</string>
+    <string name="subtitle_enter_display_name">Enter Your Name</string>
+    <string name="subtitle_enter_server_and_api_key">Enter an API Key</string>
+    <string name="subtitle_select_group_members">Select Group Members</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="tab_title_contacts">Contacts</string>
+    <string name="tab_title_discussions">Discussions</string>
+    <string name="tab_title_groups">Groups</string>
+    <string name="tab_title_invitations">Invitations</string>
+    <string name="tab_title_myid">My ID</string>
+    <string name="text_contact_deleted">Contact deleted</string>
+    <string name="text_contact_names_separator">", "</string>
+    <string name="text_date_time_separator"> • </string>
+    <string name="text_deleted_contact">Deleted Contact</string>
+    <string name="text_delivered">Delivered</string>
+    <string name="text_discussion_end2end_disclaimer">"Messages posted in this discussion are protected using end-to-end encryption.
+Their confidentiality, their authenticity, and the identity of their sender are guaranteed through cryptography."</string>
+    <string name="text_group_created_by_me">Group created by me</string>
+    <string name="text_group_left">You left the group</string>
+    <string name="text_group_managed_by">Group managed by %1$s</string>
+    <string name="text_joined_group">Joined group: %1$s</string>
+    <string name="text_joined_the_group">%1$s joined the group</string>
+    <string name="text_known_as">" known as "</string>
+    <string name="text_left_the_group">%1$s left the group</string>
+    <string name="text_list_bullet">"• "</string>
+    <string name="text_name_message_separator">": "</string>
+    <string name="text_no_members">No members</string>
+    <string name="text_no_recipient_details">No message details available</string>
+    <string name="text_nobody">Nobody</string>
+    <string name="text_null_timestamp">-</string>
+    <string name="text_original_message_not_found">Original message not found</string>
+    <string name="text_outbound_message_prefix">You: %1$s</string>
+    <string name="text_processing">Processing</string>
+    <string name="text_read">Read</string>
+    <string name="text_sent">Sent</string>
+    <string name="text_today">Today</string>
+    <string name="text_unknown_member_joined_the_group">An unknown member joined the group</string>
+    <string name="text_unknown_member_left_the_group">An unknown member left the group</string>
+    <string name="text_yesterday">Yesterday</string>
+    <string name="text_you">You</string>
+    <string name="title_invite_chooser">Choose how to send your invitation</string>
+    <string name="title_sharing_chooser">Choose sharing method</string>
+    <string name="toast_message_android_bug_attach_duplicate_uri">Some files could not be attached to the message due to a bug in your Android version (multiple files returned the same URI). Please try again to attach missing files.</string>
+    <string name="toast_message_api_key_update_error">Error updating your API Key</string>
+    <string name="toast_message_api_key_updated">API Key updated</string>
+    <string name="toast_message_attachment_being_copied">An attachment is still being processed. Your message will be sent when processing ends.</string>
+    <string name="toast_message_attachment_saved">Attachment saved</string>
+    <string name="toast_message_camera_permission_denied">Permission to use camera was denied</string>
+    <string name="toast_message_channel_restart_failed">The channel establishment protocol failed to restart</string>
+    <string name="toast_message_channel_restart_sucessful">The channel establishment protocol was successfully restarted</string>
+    <string name="toast_message_contact_deleted">Contact deleted</string>
+    <string name="toast_message_contacts_introduction_started">Contact introduction initiated</string>
+    <string name="toast_message_device_has_no_camera">Your device does not have a camera</string>
+    <string name="toast_message_dialogs_restored">Dialog warnings reset</string>
+    <string name="toast_message_discussion_not_found">Discussion not found</string>
+    <string name="toast_message_error_updating_details">Error updating your identity details</string>
+    <string name="toast_message_established_channel_required_for_introduction">Contact introduction requires an established secure channel</string>
+    <string name="toast_message_failed_to_attach">The file you selected could not be attached to the message</string>
+    <string name="toast_message_failed_to_attach_filename">The file %1$s could not be attached to the message</string>
+    <string name="toast_message_failed_to_save_attachment">Failed to save attachment</string>
+    <string name="toast_message_file_already_attached">The file %1$s is already attached to the message</string>
+    <string name="toast_message_forward_not_implemented">Forward functionality not implemented yet</string>
+    <string name="toast_message_group_creation_started">Group creation protocol initiated</string>
+    <string name="toast_message_group_disbanded">Group disbanded</string>
+    <string name="toast_message_invalid_api_key_format">Invalid API key format</string>
+    <string name="toast_message_invalid_clipboard_data">Invalid clipboard data</string>
+    <string name="toast_message_invite_sent">Invitation sent</string>
+    <string name="toast_message_leaving_group">You left the group</string>
+    <string name="toast_message_message_copied_to_clipboard">Message text copied to clipboard</string>
+    <string name="toast_message_no_channel_message_delayed">Your message is on hold and will be sent as soon as possible</string>
+    <string name="toast_message_not_a_valid_config_url">Not a valid configuration URL</string>
+    <string name="toast_message_not_a_valid_invite_url">Not a valid invitation URL</string>
+    <string name="toast_message_polling_failed">Failed to get messages</string>
+    <string name="toast_message_reply_not_implemented">Reply functionality not yet implemented</string>
+    <string name="toast_message_sharing_failed">Unable to share selected content</string>
+    <string name="toast_message_shortcut_creation_failed">Shortcut creation failed</string>
+    <string name="toast_message_shortcut_not_supported">Shortcut creation not supported on your device</string>
+    <string name="toast_message_unable_to_open_file">Unable to find a suitable application to open this file type</string>
+    <string name="toast_message_unable_to_read_qr_code_from_image">Unable to read QR code from picture</string>
+    <string name="toast_message_unparsable_url">Unable to parse URL properly</string>
+    <string name="toast_message_wrong_server_api_key">The API key you imported seems to be for a different server</string>
+    <string name="trust_origin_direct_type">%1$s - One-to-one verification</string>
+    <string name="trust_origin_group_type">"%1$s - Accepted group invitation from "</string>
+    <string name="trust_origin_introduction_type">"%1$s - Introduction from "</string>
+    <string name="trust_origin_unknown_type">%1$s - Unknown trust origin</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/GreyRipple" android:id="@id/message_root_constraint_layout" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <io.olvid.messenger.customClasses.SizeAwareCardView android:theme="@style/GreyRipple" android:id="@id/message_content_card" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:layout_marginStart="72.0dip" android:layout_marginEnd="8.0dip" app:cardBackgroundColor="@color/primary100" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/view_message_outbound_header" />
+            <include layout="@layout/view_message_attachment_card" />
+        </LinearLayout>
+    </io.olvid.messenger.customClasses.SizeAwareCardView>
+    <CheckBox android:id="@id/message_selection_checkbox" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginStart="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/message_content_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -33,16 +33,32 @@ ___________________
 Pour ce qui est de l'injection, je pense la fait dans le constructeru de KeyPair de la forme suivante :
 
 .line 11
-  new-instance v0, Lcom/example/emplyproject/PrintPrivateKey;
+	new-instance v0, Lcom/example/emplyproject/PrintPrivateKey;
 
-  invoke-direct {v0}, Lcom/example/emplyproject/PrintPrivateKey;-><init>()V
+        invoke-direct {v0}, Lcom/example/emplyproject/PrintPrivateKey;-><init>()V
 
-.line 12
-  new-instance v1, Ljava/util/HashMap;
+    .line 12
+        new-instance v1, Ljava/util/HashMap;
 
-  invoke-virtual {p2},Lio/olvid/engine/datatypes/key/CryptographicKey;->getKey()
-  move-result-object v1
+        invoke-virtual {p2},Lio/olvid/engine/datatypes/key/CryptographicKey;->getKey()Ljava/util/HashMap;
+        move-result-object v1
 
-.line 13
+    .line 13
 
-  invoke-virtual {v0, v1}, Lcom/example/emplyproject/PrintPrivateKey;->Printkey(Ljava/util/HashMap;)Ljava/lang/String;
+        invoke-virtual {v0, v1}, Lcom/example/emplyproject/PrintPrivateKey;->Printkey(Ljava/util/HashMap;)Ljava/lang/String;
+
+
+-------------------------
+
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(BB",
+            "Ljava/util/HashMap<",
+            "Lio/olvid/engine/datatypes/DictionaryKey;",
+            "Lio/olvid/engine/encoder/Encoded;",
+            ">;)V"
+        }
+    .end annotation
+
+Pour préciser les types d'elements d'un hashmap

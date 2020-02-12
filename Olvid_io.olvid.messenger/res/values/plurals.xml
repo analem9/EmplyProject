@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_message_delete_messages">
+        <item quantity="other">Do you really want to delete the %1$d selected messages?</item>
+        <item quantity="one">Do you really want to delete the selected message?</item>
+    </plurals>
+    <plurals name="dialog_message_invite_group_members">
+        <item quantity="other">The %1$d following contacts will be invited to join the group %2$s: %3$s.</item>
+        <item quantity="one">%3$s will be invited to join the group %2$s.</item>
+    </plurals>
+    <plurals name="dialog_message_remove_group_members">
+        <item quantity="other">The %1$d following group members will be removed from %2$s: %3$s.</item>
+        <item quantity="one">%3$s will be removed from the group %2$s.</item>
+    </plurals>
+    <plurals name="invitation_status_description_group_created">
+        <item quantity="other">All %1$d group members accepted the invitation from %2$s.</item>
+        <item quantity="one">You accepted the invitation from %2$s.</item>
+    </plurals>
+    <plurals name="invitation_status_description_own_group_created">
+        <item quantity="other">All %1$d group members accepted your invitation.</item>
+        <item quantity="one">The other group member accepted your invitation.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="notification_more_messages">
+        <item quantity="other">+%1$d more</item>
+    </plurals>
+    <plurals name="notification_public_title_new_messages">
+        <item quantity="other">%1$d new messages</item>
+        <item quantity="one">%1$d new message</item>
+    </plurals>
+    <plurals name="notification_text_header_added_count">
+        <item quantity="other">"%1$d new members: "</item>
+        <item quantity="one">"%1$d new member: "</item>
+    </plurals>
+    <plurals name="notification_text_header_removed_count">
+        <item quantity="other">"%1$d members left: "</item>
+        <item quantity="one">"%1$d member left: "</item>
+    </plurals>
+    <plurals name="notification_title_new_group_messages">
+        <item quantity="other">%1$d new messages for group %2$s</item>
+        <item quantity="one">%1$d new message for group %2$s</item>
+    </plurals>
+    <plurals name="notification_title_new_messages">
+        <item quantity="other">%1$d new messages from %2$s</item>
+        <item quantity="one">%1$d new message from %2$s</item>
+    </plurals>
+    <plurals name="text_reply_attachment_count">
+        <item quantity="other">%1$d attachments</item>
+        <item quantity="one">%1$d attachment</item>
+    </plurals>
+    <plurals name="text_unread_message_count">
+        <item quantity="other">%1$d new messages</item>
+        <item quantity="one">%1$d new message</item>
+    </plurals>
+    <plurals name="toast_message_sending_failed_for_users">
+        <item quantity="other">Failed to send message to %1$d recipients: %2$s. Will try again.</item>
+        <item quantity="one">Failed to send message to %1$d recipient: %2$s. Will try again.</item>
+    </plurals>
+</resources>

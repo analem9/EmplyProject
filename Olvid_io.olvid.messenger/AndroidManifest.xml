@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="io.olvid.messenger" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:isSplitRequired="true" android:label="@string/app_name" android:name="io.olvid.messenger.App" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="io.olvid.messenger.activities.MainActivity" android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:launchMode="singleInstance" android:name="io.olvid.messenger.activities.ObvLinkActivity" android:noHistory="true" android:theme="@style/AppTheme.NoActionBar.FullScreen.Transparent">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="olvid"/>
+                <data android:host="invitation.olvid.io" android:scheme="https"/>
+                <data android:host="configuration.olvid.io" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleInstance" android:name="io.olvid.messenger.activities.IdentityCreationActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleInstance" android:name="io.olvid.messenger.activities.IdentityCreationActivityNoAPI" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="io.olvid.messenger.activities.DiscussionActivity" android:theme="@style/AppTheme.NoActionBar.ActionModeOverlay"/>
+        <activity android:label="@string/activity_title_settings" android:name="io.olvid.messenger.activities.SettingsActivity" android:theme="@style/AppTheme.WhiteBackground"/>
+        <activity android:name="io.olvid.messenger.activities.FullScreenQrCodeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.FullScreen"/>
+        <activity android:name="io.olvid.messenger.activities.LandscapeFullScreenQrCodeActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme.NoActionBar.FullScreen"/>
+        <activity android:name="io.olvid.messenger.activities.CameraScanActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.FullScreen.Black"/>
+        <activity android:label="@string/activity_title_myid" android:name="io.olvid.messenger.activities.MyIdActivity"/>
+        <activity android:label="@string/activity_title_contact_details" android:name="io.olvid.messenger.activities.ContactDetailsActivity"/>
+        <activity android:label="@string/activity_title_group_details" android:name="io.olvid.messenger.activities.GroupDetailsActivity"/>
+        <activity android:name="io.olvid.messenger.activities.GroupCreationActivity"/>
+        <activity android:launchMode="singleInstance" android:name="io.olvid.messenger.activities.ShareActivity" android:noHistory="true" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <meta-data android:name="android.service.chooser.chooser_target_service" android:value="io.olvid.messenger.ContactChooserTargetService"/>
+        </activity>
+        <activity android:icon="@drawable/icon_id_round" android:label="@string/app_name" android:launchMode="singleInstance" android:name="io.olvid.messenger.activities.ShortcutActivity" android:noHistory="true" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_title_message_details" android:name="io.olvid.messenger.activities.MessageDetailsActivity"/>
+        <activity android:label="@string/activity_title_discussion_settings" android:name="io.olvid.messenger.activities.DiscussionSettingsActivity" android:theme="@style/AppTheme.WhiteBackground"/>
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
+        <service android:name="io.olvid.messenger.ObvFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:label="@string/app_name" android:name="io.olvid.messenger.ContactChooserTargetService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <service android:name="io.olvid.messenger.JobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="io.olvid.messenger.activities.NotificationActionService"/>
+        <provider android:authorities="io.olvid.messenger.PROVIDER" android:exported="false" android:grantUriPermissions="true" android:name="io.olvid.messenger.FyleContentProvider"/>
+        <provider android:authorities="io.olvid.messenger.PICTURE_FILES_PROVIDER" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/picture_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="io.olvid.messenger.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="io.olvid.messenger.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

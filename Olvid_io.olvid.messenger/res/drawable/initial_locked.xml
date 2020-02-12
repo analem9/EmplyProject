@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:width="2.0dip" android:color="#ffe6e6e6" />
+            <size android:height="56.0dip" android:width="56.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_lock" android:left="16.0dip" android:top="16.0dip" android:right="16.0dip" android:bottom="16.0dip" />
+</layer-list>

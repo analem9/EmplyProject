@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/explanation_choose_display_name" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dialog_view_edit_identity_details" />
+        <Button android:enabled="false" android:textSize="18.0sp" android:textColor="@color/almostWhite" android:id="@id/button_generate_id" android:padding="20.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/button_label_generate_new_id" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.AppCompat.Button.Colored" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

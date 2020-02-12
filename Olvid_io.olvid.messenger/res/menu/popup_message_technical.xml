@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_delete" android:id="@id/popup_action_delete_message" android:orderInCategory="400" android:title="@string/menu_action_delete" />
+    <item android:icon="@drawable/ic_ok_white" android:id="@id/popup_action_select_messages" android:orderInCategory="500" android:title="@string/menu_action_select" />
+</menu>

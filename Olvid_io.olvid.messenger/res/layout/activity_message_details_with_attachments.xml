@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/message_details_root" android:background="@color/almostWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/discussion_background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/message_scrollview" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView android:id="@id/message_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" app:layout_constrainedHeight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_max="300.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center" android:id="@id/include" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" layout="@layout/view_message_top_timestamp" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" layout="@layout/view_message_details_message_with_attachments" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <io.olvid.messenger.customClasses.EmptyRecyclerView android:id="@id/recipient_infos_recycler_view" android:background="@color/lightGrey" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/message_scrollview" />
+    <TextView android:textStyle="italic" android:id="@id/empty_recipients_info_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/text_no_recipient_details" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/message_scrollview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:icon="@drawable/ic_pref_read_receipt" android:entries="@array/discussion_read_receipt" android:title="@string/pref_discussion_read_receipt_title" android:key="@string/pref_key_discussion_read_receipt" android:summary="@string/pref_discussion_read_receipt_summary" android:order="10" android:defaultValue="null" android:entryValues="@array/discussion_read_receipt_values" />
+</PreferenceScreen>

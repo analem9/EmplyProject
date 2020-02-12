@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:theme="@style/RobotoMedium" android:textSize="20.0sp" android:textColor="@color/primary700" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/dialog_title_api_key_status" android:singleLine="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primary700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/label_server_url" android:singleLine="true" />
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primary700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_api_key" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:typeface="monospace" android:textColor="@color/primary700" android:ellipsize="end" android:id="@id/server_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0sp" android:layout_marginBottom="4.0dip" android:hint="@string/hint_server_url" android:singleLine="true" />
+                    <TextView android:textSize="12.0sp" android:typeface="monospace" android:textColor="@color/primary700" android:id="@id/api_key_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0sp" android:hint="@string/hint_api_key" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <ImageView android:id="@id/api_key_status_image_view" android:layout_width="32.0dip" android:layout_height="32.0dip" app:srcCompat="@drawable/ic_question" />
+                <TextView android:textSize="16.0sp" android:id="@id/api_key_status_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textStyle="italic" android:id="@id/api_key_status_configuration_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <Button android:id="@id/button_scan_qr_code" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_label_scan_qr_code" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:id="@id/button_enter_manually" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_label_enter_manually" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/button_import_from_clipboard" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_label_import_from_clipboard" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

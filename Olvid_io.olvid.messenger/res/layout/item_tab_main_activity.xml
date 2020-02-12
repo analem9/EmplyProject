@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/RobotoMedium" android:textSize="12.0sp" android:textColor="#ffb6bfca" android:id="@id/tab_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:textAllCaps="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/spacer" android:layout_width="8.0dip" android:layout_height="2.0dip" app:layout_constraintBottom_toTopOf="@id/tab_title_textview" app:layout_constraintStart_toEndOf="@id/tab_title_textview" />
+    <ImageView android:id="@id/tab_notification_dot" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" app:layout_constraintEnd_toEndOf="@id/spacer" app:layout_constraintTop_toTopOf="@id/spacer" app:srcCompat="@drawable/ic_dot_primary900_bordered" />
+</androidx.constraintlayout.widget.ConstraintLayout>

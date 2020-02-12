@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="10.0dip" android:width="30.0dip" android:viewportWidth="30.0" android:viewportHeight="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="firstDot" android:pivotX="5.0" android:pivotY="5.0">
+        <path android:fillColor="#ff999999" android:pathData="M5,3a2,2, 0 0,0 0,4a2,2, 0 0,0 0,-4z" />
+    </group>
+    <group android:name="secondDot" android:pivotX="15.0" android:pivotY="5.0">
+        <path android:fillColor="#ff999999" android:pathData="M15,3a2,2, 0 0,0 0,4a2,2, 0 0,0 0,-4z" />
+    </group>
+    <group android:name="thirdDot" android:pivotX="25.0" android:pivotY="5.0">
+        <path android:fillColor="#ff999999" android:pathData="M25,3a2,2, 0 0,0 0,4a2,2, 0 0,0 0,-4z" />
+    </group>
+</vector>
